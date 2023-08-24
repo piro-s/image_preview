@@ -2,7 +2,7 @@
 
 echo "Start thumbnail generation..."
 
-for f in `find ./ -type f \( -iname \*.jpg -o -iname \*.png \ -o -iname \*.gif \ -o -iname \*.bmp \)`:
+for f in `find ./ -type f \( -iname '*.jpg' -o -iname '*.png' -o -iname '*.gif' -o -iname '*.bmp' \)`:
 do
     echo "$f"
     if [[ $f == *.jpg ]]
